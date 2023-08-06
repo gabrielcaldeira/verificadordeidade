@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercicio JS</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Data de nascimento:
+                <input type="number" name="datanascimento" id="datanascimento">
+            </p>
+            <p>Genero:
+                <input type="radio" name="radsex" id="masc" checked><label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem"><label for="fem">Feminino</label>
+            </p>
+            <input id="verificar" type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">Preencha as informaçoes acima para verificar sua idade</div>
+    </section>
+    <footer>
+        <p>&copy;GBTT</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

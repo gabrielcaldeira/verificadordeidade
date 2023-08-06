@@ -1,0 +1,91 @@
+/* reset */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#titulo{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+body{
+    background-color: rgb(129, 127, 255);
+    font: normal 15pt arial;
+}
+
+#datanascimento{
+    width:75px;
+    line-height: 20px;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width:500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.371);
+}
+
+#imagemrepresentativa{
+    width: 450px;
+}
+
+#verificar{
+    width: 450px;
+    height: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: rgb(158, 157, 222);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+#verificar:hover{
+    background-color: rgb(157, 222, 203);
+}
+
+header,
+footer{
+    padding:15px 0 0;
+    text-align: center;
+    color:white;
+}
+
+footer{
+    font-style: italic;
+    height: 125px;
+}
+
+footer p{
+    margin-top:65px;
+}
+
+/* media query */
+@media only screen and (max-width:1000px){
+    #titulo{
+        font-size: 24px;
+        padding: 10px 0 10px 0;
+    }
+    p{
+        padding-bottom: 5px;
+    }
+    #imagemrepresentativa{
+        width: 90vw;
+    }
+    section{
+        padding: 15px;
+        width:100vw;
+        margin:auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.371);
+    }
+    
+    #verificar{
+        width: 90vw;
+    }
+}
